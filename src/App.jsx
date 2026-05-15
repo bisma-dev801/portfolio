@@ -97,7 +97,7 @@ function App() {
         <img
           src="/portfolio-builder.jpeg"
           alt="Portfolio Builder"
-          className="w-full h-47 object-cover"
+          className="w-full h-[270px] object-cover"
         />
         <div className="p-7">
           <h3 className="text-2xl font-bold mb-3">
@@ -122,7 +122,7 @@ function App() {
         <img
           src="/ecommerce.jpeg"
           alt="Ecommerce"
-          className="w-full h-47 object-cover"
+          className="w-full h-[270px] object-cover"
         />
         <div className="p-7">
           <h3 className="text-2xl font-bold mb-3">
@@ -146,7 +146,7 @@ function App() {
         <img
           src="/taskmanager.jpeg"
           alt="Task Manager"
-          className="w-full h-47 object-cover"
+          className="w-full h-[270px] object-cover"
         />
         <div className="p-7">
           <h3 className="text-2xl font-bold mb-3">
