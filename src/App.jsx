@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaGithub, FaLinkedin, FaEnvelope,FaFacebook } from "react-icons/fa"; 
+import { FaGithub, FaLinkedin, FaEnvelope,FaFacebook,FaInstagram } from "react-icons/fa"; 
 
 function App() {
   const [text, setText] = useState("");
@@ -289,16 +289,16 @@ function App() {
         {/* Email */}
         <div className="flex items-center gap-5">
 
-          <div className="bg-pink-500/20 p-5 rounded-2xl text-2xl">
+          <div className="bg-pink-500/20 p-3 md:p-4 rounded-xl text-xl">
             📧
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold">
+            <h3 className="text-xl md:text-2x1 font-semibold">
               Email
             </h3>
 
-            <p className="text-gray-400 text-lg mt-1">
+            <p className="text-gray-400 text-base md:text-lg mt-1 break-all">
               bismarafiq.m@gmail.com
             </p>
           </div>
@@ -308,16 +308,16 @@ function App() {
         {/* Phone */}
         <div className="flex items-center gap-5">
 
-          <div className="bg-pink-500/20 p-5 rounded-2xl text-2xl">
+          <div className="bg-pink-500/20 p-3 md:p-4 rounded-xl text-xl">
             📱
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold">
+            <h3 className="text-xl md:text-2x1 font-semibold">
               Phone
             </h3>
 
-            <p className="text-gray-400 text-lg mt-1">
+            <p className="text-gray-400 text-base md:text-lg mt-1 break-all">
               +92 3105766356
             </p>
           </div>
@@ -327,16 +327,16 @@ function App() {
         {/* Location */}
         <div className="flex items-center gap-5">
 
-          <div className="bg-pink-500/20 p-5 rounded-2xl text-2xl">
+          <div className="bg-pink-500/20 p-3 md:p-4 rounded-xl text-xl">
             📍
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold">
+            <h3 className="text-xl md:text-2x1 font-semibold">
               Location
             </h3>
 
-            <p className="text-gray-400 text-lg mt-1">
+            <p className="text-gray-400 text-base md:text-lg mt-1 break-all">
               Islamabad, Pakistan
             </p>
           </div>
@@ -350,24 +350,18 @@ function App() {
 
         <a
           href="https://github.com/bisma-dev801"
-          className="bg-pink-500 hover:bg-pink-600 hover:scale-105 transition duration-300 px-8 py-4 rounded-2xl font-semibold text-lg"
-        >
-          GitHub
+          className="bg-pink-400 hover:bg-pink-600 transition duration-300 px-8 py-4 rounded-2xl
+           font-semibold text-lg flex items-center gap-2">
+        <FaGithub/>
         </a>
 
         <a
-          href="https://linkedin.com/bisma-rafique"
-          className="bg-pink-500 hover:bg-pink-600 hover:scale-105 transition duration-300 px-8 py-4 rounded-2xl font-semibold text-lg"
-        >
-          LinkedIn
+           className="bg-pink-400 hover:bg-pink-600 transition duration-300 px-8 py-4 rounded-2xl
+           font-semibold text-lg flex items-center gap-2">
+        <FaLinkedin/>
+    
         </a>
 
-        <a
-          href="https://instagram.com/bisma_ch9324"
-          className="bg-pink-500 hover:bg-pink-600 hover:scale-105 transition duration-300 px-8 py-4 rounded-2xl font-semibold text-lg"
-        >
-          Instagram
-        </a>
 
       </div>
 
