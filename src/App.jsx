@@ -299,7 +299,7 @@ function App() {
             </h3>
 
             <p className="text-gray-400 text-lg mt-1">
-              bismarafique.67@gmail.com
+              bismarafiq.m@gmail.com
             </p>
           </div>
 
